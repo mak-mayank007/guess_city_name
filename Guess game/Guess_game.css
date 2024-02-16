@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Poppins,'sans-serif';
+}
+
+body{
+    background-image:url('map.jpg');
+    
+    
+}
+header{
+    background-color: rgb(0, 0, 0);
+    width:95%;
+    line-height: 17vh;
+    border-radius:50px;
+    margin:30px;
+    
+}
+h1{
+    font-size: 2.7rem;
+    text-align: center;
+    color:azure;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    }
+section{
+    height:83vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('map.jpg');
+    z-index: -1 ;}
+    
+
+.gameArea{
+    height:500px;
+    width:80%;
+    background-color: black;
+    border-radius: 50px;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+h3{
+    text-align: center;
+    font-size: 2rem;
+}
+input{
+    width:50%;
+    height:80px;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 25px;
+    outline: none;
+    border:6px double rgb(0, 0, 0);
+    background-color:white;
+    color:rgb(0, 24, 161) ;
+    margin:0.5rem 0;
+    font-size: 2.5rem;
+}
+button.btn{
+    width: 600px;
+    height: 100px;
+    background:none;
+    color:#ffa260;
+    border:5px double;
+    padding: 1em 2em;
+    font-size: 2em;
+    text-align: center;
+    transition:all 1sec;
+    margin-top: 2rem;
+    border-radius: 22px;
+}
+button.btn:hover{
+    border-color: #f1ff5c;
+    color:white;
+    box-shadow: 0 0.5em .5em -0.4em #f1ff5c;
+    cursor:pointer;
+    transform:translateY(-0.25em);
+}
+.hidden{
+    display:none;
+    
+}
+.msg{
+    color:white;
+    font-family: 'IM Fell Double Pica SC', serif;
+}
